@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pwsh /home/tare/Programs/msrc_reporter/get_Gdi_Win32k.ps1 $1
