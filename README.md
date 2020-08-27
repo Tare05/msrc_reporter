@@ -9,6 +9,6 @@ Powershell is needed, and the MSRC module should be installed:
 
 If you add the bashscript to a crontab like:
 
-`0 */6 * * * MsrcReporter $(date +%Y-%b)`
+`* */6 * * * MsrcReporter $(date +\%Y-\%b)`
 
 and you create a module from your taskbar which opens the HTML report in your preferred browser, new security updates can be checked very conviniently.
